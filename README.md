@@ -1,6 +1,5 @@
-# Airfoil_EE_2023
-Code accompanying "Harnessing the instability mechanisms in airfoil flow for the data-driven forecasting of extreme events" by Barthel and Sapsis (2023)
-
+"Harnessing the instability mechanisms in airfoil flow for the data-driven forecasting of extreme events"  
+Benedikt Barthel and Themistoklis Sapsis 2023
 
 Data can be found at https://www.dropbox.com/scl/fo/072uphsf9gr1umhrra0vi/h?dl=0&rlkey=mexzvglxebmcvhxesmdw9c47b
 
@@ -11,6 +10,9 @@ For Flowfield Analysis:
 3. Active search script 'run_wavelet_processed_ensemble_NN_active_Search.py' is best run on a HPC everything else is laptop friendly
 
 
+For offline sensor placment results
+1. 'OMI_Search.m' runs offline mutual information sensor placment
+2. The code for the NN model can be fond at https://github.com/snagcliffs/Airfoil_EE
 
 
 For Wavelet Model:
@@ -18,12 +20,17 @@ General:
 1. Model is run and trained in python using TensorFlow. The python codes train and run the model and save output, the figures are generated using the matlab codes.
 2. 'save_wavelet_basis.m' generates wavelet preprcoessed surface pressure data
 
+To simply run the ensemble model
+1. 'run_wavelet_processed_ensemble_NN.py' trains model and plots output
 
-For Basis Comparisson Results
+For basis comparisson results
 1. 'run_wavelet_processed_ensemble_NN_basis_test.py' trains network using all basis types
 2. 'generate_plots_basis_comp_1.m' generates time series and pdf plots
 3. 'generate_plots_basis_comp_2.m' generates error metric plots
 
-For Active Search Results
+For active search results
 1. 'run_wavelet_processed_ensemble_NN_active_Search.py' runs active search to find optimal sensor locations
 2. 'generate_plots_active_search.m' generates plots
+
+
+
