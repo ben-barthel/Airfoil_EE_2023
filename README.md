@@ -11,8 +11,8 @@ For Flowfield Analysis:
 
 
 For offline sensor placment results
-1. 'OMI_Search.m' runs offline mutual information sensor placment
-2. The code for the NN model can be fond at https://github.com/snagcliffs/Airfoil_EE
+1. 'OMI_Master.m' runs offline mutual information sensor placment
+2. The code for the NN model can be found at https://github.com/snagcliffs/Airfoil_EE
 
 
 For Wavelet Model:
