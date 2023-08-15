@@ -11,11 +11,12 @@ For Flowfield Analysis:
 
 
 For offline sensor placment results
-1. 'OMI_Master.m' runs offline mutual information sensor placment
+1. 'OMI_Master.m' runs offline mutual information sensor placement
 2. The code for the NN model can be found at https://github.com/snagcliffs/Airfoil_EE
 
 
 For Wavelet Model:
+
 General: 
 1. Model is run and trained in python using TensorFlow. The python codes train and run the model and save output, the figures are generated using the matlab codes.
 2. 'save_wavelet_basis.m' generates wavelet preprcoessed surface pressure data
